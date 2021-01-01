@@ -1,0 +1,191 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="./styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bungee&family=Bungee+Shade&family=Concert+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="favicon.ico">
+        <title>So You Wanna Vote?</title>
+    </head>
+    <body>
+        <h2><a href="index.html">🗳️ So You Wanna Vote? 🗳️</a></h2>
+
+        <div class="alert">
+            <marquee bgcolor="#ededed">
+                <span>REGISTRATION FOR THE NOVEMBER 2020 ELECTION HAS ENDED!</span>
+                <span>OCTOBER 27TH IS THE LAST DAY TO APPLY FOR AN ABSENTEE BALLOT!</span>
+            </marquee>
+        </div>
+
+        <div class="flex_grid">
+            <div class="col">
+                <a href="register.html">Register To Vote</a>
+            </div>
+            <div class="col">
+                <a href="registration_status.html">Check Your Registration Status</a>
+            </div>
+            <div class="col">
+                <a href="absentee_ballot.html">Request Your Absentee Ballot</a>
+            </div>
+        </div>
+
+        <div class="flex_grid">
+            <div class="col">
+                <a href="voting_plan.html">Make Your Voting Plan</a>
+            </div>
+            <div class="col">
+                <a href="ineligible.html">Ineligible To Vote?</a>
+            </div>
+            <div class="col">
+                <a href="why_you_should_vote.html">Why You Should Vote!</a>
+            </div>
+        </div>
+        <br>
+
+        
+        
+
+        <div class="important_dates_container">
+            <div class="important_dates_title">📅 Important Dates 📅</div>
+
+            <br>
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">October 24</div>
+                <div class="important_dates_p">Early voting begins.</div>
+            </div>
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">October 27</div>
+                <div class="important_dates_p">Last day to apply online, by email, fax or to postmark an application or letter of application by mail for an absentee ballot.</div>
+            </div>
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">November 2</div>
+                <div class="important_dates_p">Last day to apply IN-PERSON for absentee ballot.</div>
+            </div>
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">November 3</div>
+                <div class="important_dates_p">Last day to postmark absentee ballot. Also the last day to deliver IN-PERSON to the local board of elections or to any poll site.</div>
+            </div>
+            
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">November 3</div>
+                <div class="important_dates_p">Election Day! 🗳️</div>
+            </div>
+
+            <center><img src="https://media2.giphy.com/media/3kD2JZa2okwOeFZN9o/giphy.gif" width=20%></center>
+
+            <hr>
+
+        </div>
+
+        
+        <div class="footer_container">
+            <div class="footer">
+                <div class="footer-items">
+                    <a href="https://nz816.github.io/" target="_blank">🤘🏻 NICOLE'S LIT SITE 🤘🏻</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
+
+    <style>
+        .flex_grid{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            font-family: 'Balsamiq Sans', cursive;
+            padding: 20px 50px 10px 50px;
+            
+        }
+
+        .flex_grid .col{
+            width: 32%;
+            background-color: rgb(225, 237, 245);
+            font-size: 32px;
+            border-radius: 5px;
+            box-shadow: 12px 12px 2px 1px rgba(71, 149, 201, .2);
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media only screen and (max-width: 800px){
+            .flex_grid .col{
+                font-size: 15px;
+            }
+        }
+
+        .flex_grid a{
+            color: rgb(9,54,84);
+            text-decoration: none;
+        }
+
+        .flex_grid a:hover{
+            color: rgb(102, 131, 150);
+        }
+
+        .important_dates_container{
+            padding: 0px 50px 10px 50px;
+        }
+
+        .important_dates_title{
+            color: white;
+            background-color: rgb(9,54,84, .8);
+            border-radius: 5px;
+            font-family: 'Bungee Shade', cursive;
+            font-size: 35px;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 800px){
+            .important_dates_title{
+                font-size: 15px;
+            }
+        }
+
+        .important_dates_grid{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 50px 10px 50px;
+        }
+
+        .important_dates_dates{
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 30px;
+            color: rgb(9,54,84);
+            line-height: 150%;
+            
+        }
+
+        @media only screen and (max-width: 800px){
+            .important_dates_dates{
+                font-size: 12px;
+            }
+        }
+
+        .important_dates_p{
+            width: 88%;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 30px;
+            color: rgb(9,54,84);
+            line-height: 150%;
+            
+        }
+
+        @media only screen and (max-width: 800px){
+            .important_dates_p{
+                font-size: 12px;
+            }
+        }
+
+    </style>
+
+</html>

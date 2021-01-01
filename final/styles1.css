@@ -1,0 +1,182 @@
+
+
+@font-face{
+    font-family: Sparkle;
+    src: url(Sparkle.otf);
+}
+
+@font-face{
+    font-family: FloralOne;
+    src: url(FloralOne.ttf);
+}
+
+/* font-family: 'Goudy Bookletter 1911', serif; */
+
+body{
+    background-color: rgb(249, 239, 235);
+}
+
+.message{
+    text-align: center;
+    font-family: Sparkle;
+    font-size: 50px;
+    padding: 50px;
+    color: rgb(233, 151, 56);
+    text-shadow: 4px 4px rgb(241, 207, 195);
+    display: none;
+}
+
+.submission{
+    display: none;
+}
+
+.submission-container{
+    background-color: rgb(241, 207, 195);
+    box-shadow: 10px 10px 5px gray;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    border-radius: 50px;
+    padding: 50px;
+    margin: auto;
+    
+}
+
+.submission-box{
+    width: 100%;
+}
+
+.form-control{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 30px;
+}
+
+.btn{
+    font-family: FloralOne;
+    background-color: rgb(249, 239, 235);
+    border-radius: 100px;
+    float: right;
+    font-size: 25px;
+}
+
+button:hover{
+    background-color: rgb(242, 186, 167);
+}
+
+
+
+.expand-one{
+    font-size: 50px;
+    
+}
+
+.flowerToggle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Sparkle;
+    padding-top: 20px;
+}
+
+.flowerToggle a{
+    color: black;
+    font-size: 30px;
+}
+
+#grid{
+    margin: 0 auto;
+    padding: 20px 50px 20px 50px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+    width: 33%;
+    
+}
+
+.petalImage{
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: none;
+}
+
+.affirmation{
+    background-color: rgb(241, 207, 195);
+    border-radius: 50px;
+    height: 25%;
+    width: 75%;
+    border-style: double;
+    border-color: rgb(242, 186, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.affirmation-container{
+    
+}
+
+.affirmation-text{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flower-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.footer{
+    text-align: center;
+    padding: 5px;
+    font-family: sparkle;
+    display: none;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer a:hover{
+    color: gray;
+}
+
+/* yay web responsiveness */
+
+@media only screen and (max-width: 1200px) {
+    .message {
+        font-size: 40px;
+    }
+
+    .affirmation-text{
+        font-size: 20px;
+    }
+
+    #flower-image{
+        width: 75%;
+    }
+
+}
